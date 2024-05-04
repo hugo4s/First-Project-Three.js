@@ -1,6 +1,6 @@
-import * as THREE from 'three';
-import './styles.css'
-import { OrbitControls } from 'three/examples/jsm/Addons.js';
+import * as THREE from './node_modules/three';
+import './styles.css';
+import { OrbitControls } from './node_modules/three/examples/jsm/Addons.js';
 import gsap from 'gsap';
 
 // Configuração da cena
