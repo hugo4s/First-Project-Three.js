@@ -2,7 +2,6 @@ import * as THREE from 'three';
 import './styles.css'
 import { OrbitControls } from 'three/examples/jsm/Addons.js';
 import gsap from 'gsap';
-import { TextureLoader } from 'three';
 
 // Configuração da cena
 const scene = new THREE.Scene();
